@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="formOne" action="index.html" method="post">
+        <div id="lucky" class="form-group">
+          <label for="lucky">Check all that apply!</label>
+          <div class="form-group">
+            <input type="checkbox" name="lucky" value="2">A bird has shit on your head recently<br>
+            <input type="checkbox" name="lucky" value="2">You've found coin head's up<br>
+            <input type="checkbox" name="lucky" value="2">Finding a four-leaf clover<br>
+            <input type="checkbox" name="lucky" value="2">Seeing a rainbow<br>
+          </div>
+        </div>
+        <div id="unlucky" class="form-group">
+          <label for="otherTransportation">Choose some more!</label>
+          <div class="form-group">
+            <input type="checkbox" name="unlucky" value="1">Seeing a black cat<br>
+            <input type="checkbox" name="unlucky" value="1">Walking under a ladder<br>
+            <input type="checkbox" name="unlucky" value="1">Stubbing your toe<br>
+            <input type="checkbox" name="unlucky" value="1">You believe in horoscopes<br>
+          </div>
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <span id="prediction">
+       <!-- <p><b>Your near future has been predicted! It is. . .</b></p> -->
+      </span>
+    </div>
+  </body>
+</html>
